@@ -1,0 +1,8 @@
+# Public aggregate plotting companion only; no model-fitting or private-helper dependencies.
+# Compatible ranges are proposed, not a runtime-validated frozen environment.
+numpy>=1.24,<3
+pandas>=2.0,<3
+matplotlib>=3.7,<4
+jupyterlab>=4,<5
+ipykernel>=6,<8
+nbformat>=5.9,<6

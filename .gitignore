@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Study release: aggregate source data only
+/data/*
+!/data/source_data/
+!/data/source_data_columns.csv
+/raw/
+/preproc/
+/workflow/
+/archive/
